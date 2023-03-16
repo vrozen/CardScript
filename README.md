@@ -21,4 +21,4 @@ cddl_generate(|project://CardScript/programs/FrenchDeck.cddl|);
 ```
 
 This loads the Card Deck Description Language (CDDL) and generates LaTeX sources OldMaid.tex and FrenchDeck.tex.
-Compiling the LaTeX sources using a PDFLatex yiels the PDFs included in the supplementary materials of the paper.
+Compiling the LaTeX sources using a PDFLatex yiels the PDFs included in the supplementary material of the paper.
