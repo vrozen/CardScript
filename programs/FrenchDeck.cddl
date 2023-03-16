@@ -1,0 +1,15 @@
+deck FrenchDeck
+{
+  dimension suit = [♦,♥,♣,♠];
+  dimension rank = [2,3,4,5,6,7,8,9,10,J,Q,K,A,🙂];
+  
+  cardType frenchType (suit, rank)
+  {
+    top left = text(small(suit + " " + rank));
+    center = huge(suit);
+    bottom right = text(small(suit + " " + rank));
+  }
+  
+  cards normal of frenchType where [suit*2, rank*1, 🙂*0];
+  cards jesters of frenchType where [suit*0, rank*0, 🙂*2];
+}

@@ -1,0 +1,5195 @@
+\documentclass[12pt]{letter}
+\usepackage{geometry}
+  \geometry{
+  a4paper,
+  total={210mm,297mm},
+  left=0mm,
+  right=0mm,
+  bottom=0mm,
+  top=10mm
+}
+\usepackage{tikz}
+\usepackage{fdsymbol} %var suits
+\usepackage{wasysym} %smiley
+
+\newcommand{\diamonds}{\color{red}$\vardiamondsuit$\color{black}} 
+\newcommand{\hearts}{\color{red}$\varheartsuit$\color{black}} 
+\newcommand{\clubs}{$\clubsuit$} 
+\newcommand{\spades}{$\spadesuit$}
+\newcommand{\card}[9]
+{
+  \parbox[c][29mm]{20mm}{\scalebox{3}{\centering #1}}
+  \parbox[c][29mm]{20mm}{\scalebox{3}{\centering #2}}
+  \parbox[c][29mm]{20mm}{\scalebox{3}{\centering #3}}
+
+  \parbox[c][29mm]{10mm}{\scalebox{3}{\centering #4}}
+  \parbox[c][29mm]{25mm}{\scalebox{3}{\centering #5}}
+  \parbox[c][29mm]{20mm}{\scalebox{3}{\centering #6}}
+
+  \parbox[c][29mm]{10mm}{\scalebox{3}{\centering #7}} 
+  \parbox[c][29mm]{10mm}{\scalebox{3}{\centering #8}} 
+  \parbox[c][29mm]{20mm}{\scalebox{3}{\centering #9}}
+}
+
+
+\begin{document}
+
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds 2}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds 2}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds 3}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds 3}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds 4}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds 4}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds 5}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds 5}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds 6}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds 6}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds 7}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds 7}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds 8}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds 8}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds 9}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds 9}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds 10}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds 10}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\clearpage\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds J}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds J}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds Q}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds Q}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds K}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds K}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds A}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds A}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds 2}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds 2}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds 3}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds 3}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds 4}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds 4}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds 5}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds 5}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds 6}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds 6}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\clearpage\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds 7}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds 7}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds 8}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds 8}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds 9}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds 9}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds 10}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds 10}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds J}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds J}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds Q}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds Q}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds K}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds K}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \diamonds A}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \diamonds}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \diamonds A}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts 2}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts 2}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\clearpage\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts 3}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts 3}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts 4}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts 4}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts 5}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts 5}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts 6}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts 6}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts 7}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts 7}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts 8}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts 8}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts 9}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts 9}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts 10}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts 10}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts J}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts J}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\clearpage\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts Q}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts Q}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts K}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts K}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts A}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts A}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts 2}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts 2}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts 3}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts 3}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts 4}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts 4}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts 5}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts 5}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts 6}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts 6}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts 7}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts 7}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\clearpage\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts 8}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts 8}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts 9}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts 9}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts 10}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts 10}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts J}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts J}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts Q}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts Q}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts K}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts K}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \hearts A}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \hearts}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \hearts A}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs 2}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs 2}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs 3}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs 3}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\clearpage\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs 4}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs 4}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs 5}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs 5}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs 6}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs 6}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs 7}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs 7}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs 8}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs 8}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs 9}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs 9}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs 10}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs 10}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs J}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs J}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs Q}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs Q}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\clearpage\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs K}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs K}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs A}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs A}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs 2}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs 2}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs 3}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs 3}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs 4}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs 4}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs 5}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs 5}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs 6}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs 6}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs 7}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs 7}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs 8}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs 8}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\clearpage\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs 9}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs 9}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs 10}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs 10}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs J}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs J}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs Q}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs Q}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs K}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs K}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \clubs A}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \clubs}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \clubs A}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades 2}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades 2}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades 3}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades 3}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades 4}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades 4}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\clearpage\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades 5}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades 5}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades 6}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades 6}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades 7}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades 7}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades 8}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades 8}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades 9}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades 9}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades 10}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades 10}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades J}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades J}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades Q}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades Q}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades K}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades K}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\clearpage\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades A}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades A}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades 2}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades 2}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades 3}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades 3}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades 4}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades 4}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades 5}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades 5}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades 6}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades 6}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades 7}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades 7}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades 8}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades 8}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades 9}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades 9}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\clearpage\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades 10}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades 10}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades J}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades J}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades Q}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades Q}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades K}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades K}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small \spades A}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge \spades}
+            {~ }
+            {~ }
+            {~ }
+            {~ \small \spades A}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small  \smiley}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge }
+            {~ }
+            {~ }
+            {~ }
+            {~ \small  \smiley}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+
+
+\vspace*{-140pt}\begin{minipage}[t]{69mm}
+  \centering
+  \begin{tikzpicture}
+    [
+      very thick,
+      rounded corners=20pt,
+      card/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=89mm,
+        minimum width=64mm,
+        text centered,
+        fill=white,
+        text=black,
+        draw,
+      },
+      txt/.style=
+      {
+        align=center,
+        text width=64mm,
+        inner sep=0pt,
+        minimum height=10mm,
+        minimum width=64mm,
+        text centered,
+        text=black,
+        font=\small\sffamily\bfseries
+      }
+    ],
+    \node[card](TheCard)
+    {
+      \card{~ \small  \smiley}
+            {~ }
+            {~ }
+            {~ }
+            {~ \huge }
+            {~ }
+            {~ }
+            {~ }
+            {~ \small  \smiley}
+    };
+    \node[txt, below of=TheCard, node distance=89mm](TheTitle)
+    {
+      %title here
+    };
+  \end{tikzpicture}
+\end{minipage}
+\end{document}

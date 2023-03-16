@@ -1,0 +1,10 @@
+deck SimplifiedOldMaidDeck {
+  dimension suit = [♦,♥,♣,♠,🙂];
+  
+  cardType simpleType (suit) {
+    top left = text(large(suit));
+    center = text(huge(suit));
+    bottom right = text(large(suit));
+  }
+  cards myCards of simpleType where [suit*2,🙂*1];
+}
