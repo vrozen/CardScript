@@ -8,7 +8,7 @@ More information on the project can be found on this website: https://cardgamede
 ## Paper
 We have described a Domain-Specific Language (DSL) approach towards CardScript in a short paper:
 
-* Riemer van Rozen, Anders Bouwer, and Karel Millenaar. 2023. Towards a Unified Language for Card Game Design. In Foundations of Digital Games 2023 (FDG 2023), April 12–14, 2023, Lisbon, Portugal. ACM, New York, NY, USA, 5 pages. https://doi.org/10.1145/3582437.3587185
+* Riemer van Rozen, Anders Bouwer, and Karel Millenaar. 2023. Towards a Unified Language for Card Game Design. In Foundations of Digital Games 2023 (FDG 2023), April 12–14, 2023, Lisbon, Portugal. ACM, 4 pages. https://doi.org/10.1145/3582437.3587185
 
 ### Card deck generator
 Here, we share a tiny prototype that illustates how to automate one facet of card game design: card deck generation.
